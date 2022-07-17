@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: binji-link # unique identifier
+  - id: benji-link # unique identifier
     name: benji.link
     description: 'My Website' # default=empty
     url: 'https://benji.link/' # URL to fetch
@@ -23,17 +23,67 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    
+  - id: bench-benji-link
+    name: bench.benji.link
+    description: 'Cloud Servies Benchmarked'
+    url: 'https://bench.benji.link/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: dash-benji-link
+    name: dash.benji.link
+    description: 'Showing off my past projects.'
+    url: 'https://dash.benji.link/'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: covid-effi-xyz
+    name: covid.effi.xyz
+    description: 'Covid stats in Austria'
+    url: 'https://covid.effi.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+ 
+  - id: home-benji-link
+    name: home.benji.link
+    description: 'Turn on/off the lights in my room.'
+    url: 'https://home.benji.link/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: bot-benji-link
+    name: bot.benji.link
+    description: 'Create a Bot easily.'
+    url: 'https://bot.benji.link/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: effi-xyz
+    name: effi.xyz
+    description: 'Just a stupid Effi website.'
+    url: 'https://effi.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: durak-benji-link
+    name: durak.benji.link
+    description: 'Stats for a card game called Durak.'
+    url: 'https://durak.benji.link/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+   
+  - id: short-benji-link
+    name: short.benji.link
+    description: 'Simple link shortner.'
+    url: 'https://short.benji.link/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true

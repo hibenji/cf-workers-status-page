@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: benji-link # unique identifier
     name: benji.link
-    description: 'My Website' # default=empty
+    description: 'My Website.' # default=empty
     url: 'https://benji.link/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,7 +26,7 @@ monitors:
     
   - id: bench-benji-link
     name: bench.benji.link
-    description: 'Cloud Servies Benchmarked'
+    description: 'Cloud Servies Benchmarked.'
     url: 'https://bench.benji.link/'
     method: GET
     expectStatus: 200
@@ -42,7 +42,7 @@ monitors:
 
   - id: covid-effi-xyz
     name: covid.effi.xyz
-    description: 'Covid stats in Austria'
+    description: 'Covid stats in Austria.'
     url: 'https://covid.effi.xyz/'
     method: GET
     expectStatus: 200

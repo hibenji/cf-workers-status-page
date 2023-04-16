@@ -39,14 +39,6 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: covid-effi-xyz
-    name: covid.effi.xyz
-    description: 'Covid stats in Austria.'
-    url: 'https://covid.effi.xyz/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
  
   - id: home-benji-link
     name: home.benji.link
@@ -64,10 +56,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-  - id: effi-xyz
-    name: effi.xyz
+  - id: effi-wtf
+    name: effi.wtf
     description: 'Just a stupid Effi website.'
-    url: 'https://effi.xyz/'
+    url: 'https://effi.wtf/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true

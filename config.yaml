@@ -79,3 +79,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: frantic-benji-link
+    name: frantic.benji.link
+    description: 'Simple frantic counter.'
+    url: 'https://frantic.benji.link/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true

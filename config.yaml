@@ -58,7 +58,7 @@ monitors:
     
   - id: effi-wtf
     name: effi.benji.link
-    description: 'Just a stupid Effi website.'
+    description: 'Just a stupid Effi website. 2.0'
     url: 'https://effi.benji.link/'
     method: GET
     expectStatus: 200

@@ -57,9 +57,9 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: effi-wtf
-    name: effi.wtf
+    name: effi.benji.link
     description: 'Just a stupid Effi website.'
-    url: 'https://effi.wtf/'
+    url: 'https://effi.benji.link/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
